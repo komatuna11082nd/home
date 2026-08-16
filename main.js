@@ -5,7 +5,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-rnd = getRandomInt(5)
+rnd = getRandomInt(10)
 console.log(rnd)
 
 if (rnd==0){
