@@ -2,43 +2,39 @@
 <html>
 
 <head>
-    <title>こまつな製Webアプリ</title>
+    <title>🎨ColorGuesser</title>
     <meta charset="utf-8">
     <script src="./main.js" defer></script>
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <header>
-    <img src="./img/デニムサンタこまつな.jpg" id="KM18">
-    <div id="title">こまつな製Webアプリ</div>
+    <div>
+        <div id="title">🎨ColorGuesser</div>
+        <div id="version">v1.0.0</div>
+    </div>
+
+
 </header>
 
 <body>
-    <p>
-        <div>
-            どうも、こまつなです。
-            <br>
-            作ったWebアプリはこちらからどうぞ。
-            <br>
-            画像をクリックすると新しいタブで開きます。
-        </div>
-    </p>
-
-    <div id="timestamp">
-        <a href="https://komatuna11082nd.github.io/timestamp/" target="_blank">
-            <img id="banner" src="./img/タイムスタンプ.png">
-        </a>
+    <div class="square_zone">
+        <div id="otehon_box">この色を作ってね</div>
+        <div id="player_box">あなた</div>
     </div>
 
-    <div id="double-flash">
-        <a href="https://komatuna11082nd.github.io/double-flash/" target="_blank">
-            <img id="banner" src="./img/double-flash.jpg">
-        </a>
+    <div class="color_zone">
+        <p>R:<input type="range" class="ranges" id="red_range" max="5"><span id="red_range_text">255</span></p>
+        <p>G:<input type="range" class="ranges" id="green_range" max="5"><span id="green_range_text">255</span></p>
+        <p>B:<input type="range" class="ranges" id="blue_range" max="5"><span id="blue_range_text">255</span></p>
     </div>
+
+    <div class="button_zone">
+        <button class="buttons" id="answer_button">解答</button>
+        <br>
+        <button class="buttons" id="change_button">色を変える</button>
+    </div>
+    
 </body>
-
-<footer>
-    更新：2026/08/17
-</footer>
 
 </html>

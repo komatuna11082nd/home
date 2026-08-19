@@ -1,39 +1,92 @@
-header{
-    background-color: #00BE64;
-    height: 80px;
-    display: flex;
-}
-
-#KM18{
-    width: 70px;
-    height: 70px;
-
-    position: relative;
-    top: 5px;
-    left: 5px;
-}
-
 #title{
-    color: white;
-    font-family: Arial, "Helvetica Neue", sans-serif;
-    font-size: 47px;
-    font-weight: 800;
-    position: relative;
-    top: 2.5px;
-    left: 10px;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+#version{
+    text-align: center;
 }
 
 body{
+    background-color: white;
     font-family: Arial, "Helvetica Neue", sans-serif;
+}
+
+.square_zone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color:white;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+#otehon_box{
+    position: relative;
+    top: 15px;
+
+    width: 800px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: whitesmoke;
+    border: 4px solid black;
+}
+
+#player_box{
+    position: relative;
+    top: 35px;
+    width: 800px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: whitesmoke;
+    border: 4px solid black;
+}
+
+.color_zone{
+    position: relative;
+    top: 30px;
+
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900px;
+}
+
+.ranges{
+    width: 750px;
+}
+
+.button_zone{
+    text-align: center;
+    gap:5px;
+}
+
+.buttons{
+    position: relative;
     font-size: 120%;
 }
 
-#banner{
-    width: 400px;
-    height: 225px;
-    border: 1px solid black;
+#answer_button{
+    top: 20px;
+    width:400px;
+    height: 70px;
 }
 
-footer{
-    font-size: 75%;
+#change_button{
+    top: 30px;
+    width:400px;
+    height: 50px;
 }
